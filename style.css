@@ -125,6 +125,8 @@ main {
 }
 .project1 {
     background: white;
+    object-fit: contain;
+    overflow: hidden;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -134,6 +136,8 @@ main {
 }
 .project2 {
     background: white;
+    object-fit: contain;
+    overflow: hidden;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
