@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Portfolio Daffa Atalla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar (area biru) -->
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-logo">Daffa.Site</div>
+                
+                <div class="hello-text">HELLO</div>
+                <h1 class="name-text">I'm Daffa Atalla</h1>
+                <div class="title-text">Pemula di AI dan Machine Learning</div>
+                
+                <a href="index.html#about" class="btn-primary">ABOUT ME</a>
+                
+                <a href="#" class="btn-video">
+                    <i class="fas fa-play"></i>
+                </a>
+                
+                <div class="sidebar-bio">
+                    Saya tertarik untuk menciptakan solusi inovatif menggunakan AI dan Machine Learning. Dengan fokus pada pembelajaran dan pengembangan diri, saya berusaha untuk selalu mengikuti teknologi terbaru.
+                </div>
+                
+                <div class="sidebar-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main content -->
+        <div class="main-content">
+            <nav class="main-nav">
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="index.html">Beranda</a>
+                    <a href="portfolio.html">Portofolio</a>
+                    <a href="contact.html" class="active">Kontak</a>
+                </div>
+            </nav>
+            
+            <section class="contact-section">
+                <h2 class="section-title">Hubungi Saya</h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><img src="images/email.png" alt="Email">ddd@axyz.abc</p>
+                        <p><img src="images/tlp.png" alt="Telepon">+62 000-0000-0000</p>
+                        <p><img src="images/alamat.png" alt="Alamat">Sukoharjo, Indonesia</p>
+                        
+                        <div class="sidebar-social" style="margin-top: 30px;">
+                            <a href="#" class="social-icon" style="border-color: #ddd;"><i class="fab fa-facebook-f" style="color: #1a4d8c;"></i></a>
+                            <a href="#" class="social-icon" style="border-color: #ddd;"><i class="fab fa-twitter" style="color: #1a4d8c;"></i></a>
+                            <a href="#" class="social-icon" style="border-color: #ddd;"><i class="fab fa-instagram" style="color: #1a4d8c;"></i></a>
+                            <a href="#" class="social-icon" style="border-color: #ddd;"><i class="fab fa-linkedin-in" style="color: #1a4d8c;"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nama</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Masukkan nama Anda">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Masukkan email Anda">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Masukkan subjek pesan">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Tulis pesan Anda di sini"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Daffa Atalla | Semua Hak Cipta</p>
+        <p>
+            <a href="mailto:ddd@axyz.abc">Email</a> |
+            <a href="https://wa.me/6200000000000" target="_blank">WhatsApp</a>
+        </p>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
